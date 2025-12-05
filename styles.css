@@ -1,4 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Story+Script&family=UnifrakturMaguntia&display=swap');
+
+* {
+    margin: 0px;
+}
+
 body {
-    background-color: brown;
+    background-color: rgb(145, 144, 152);
     
 }
+
+
+.main-nav {
+    background-color: #6d4444;
+    padding: 1rem 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #7a4a4a;
+}
+
+.main-header {
+    color: white;
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.main-header h1 {
+   text-align: center;
+}
+
