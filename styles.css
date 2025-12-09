@@ -48,4 +48,21 @@ body {
 .main-header h1 {
    text-align: center;
 }
+    .item-box {
+  width: 250px;
+  height: 200px;
+  border: 1px solid #b01d1d;
+  padding: 15px;
+  background-color: rgb(112, 18, 18);
+}
+
+.price {
+  color: green;
+  font-size: 18px;
+}
+
+.buy-btn:hover {
+  background-color: #007bff;
+  color: white;
+}
 
